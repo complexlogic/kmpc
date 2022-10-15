@@ -49,7 +49,7 @@ Make sure you have the dependencies installed.
 
 **Debian/Ubuntu**
 ```
-sudo apt install qtbase5-dev libfmt-dev sqlite3
+sudo apt install qtbase5-dev libfmt-dev libsqlite3-dev
 ```
 **Arch/Majaro**
 ```
