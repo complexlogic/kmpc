@@ -1,10 +1,11 @@
 # Kodi M3U Playlist Converter
-Kodi M3U Playlist Converter (kmpc) is a desktop application that converts M3U music playlists for use in Kodi by changing file paths to Kodi music database URLs. kmpc is compatible with Windows, macOS, and Linux.
+Kodi M3U Playlist Converter (kmpc) is a desktop application that converts M3U music playlists for use in Kodi by changing file paths to Kodi music database URLs. This application is intended for Kodi users that create music playlists with a desktop music player, and want to export them to Kodi for listening in their living room setup.
 
 ## Screenshot
-
+![kmpc_screenshot](https://user-images.githubusercontent.com/95071366/196001159-bd27eca0-52fb-458e-941c-aea5bd73e4b0.png)
 
 ## Installation
+kmpc is compatible with Windows, macOS, and Linux.
 ### Windows
 Download the win64 zip file from the latest release and extract its contents to a directory of your choice.
 
@@ -63,9 +64,10 @@ sudo dnf install qt5-qtbase-devel fmt-devel sqlite-devel
 brew install qt fmt sqlite
 ```
 
-Build with the following steps
+Build with the following steps:
 ```
-git clone
+git clone https://github.com/complexlogic/kmpc.git
+cd kmpc
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make
