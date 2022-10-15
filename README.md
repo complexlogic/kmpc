@@ -7,7 +7,7 @@ Kodi M3U Playlist Converter (kmpc) is a desktop application that converts M3U mu
 ## Installation
 kmpc is compatible with Windows, macOS, and Linux.
 ### Windows
-Download the win64 zip file from the latest release and extract its contents to a directory of your choice.
+Download the win64 zip file from the [latest release](https://github.com/complexlogic/kmpc/releases/latest) and extract its contents to a directory of your choice.
 
 ### macOS
 There is a Homebrew formula available for macOS users. Make sure you have the latest available Xcode installed, as well as Homebrew. Then, execute the following command:
