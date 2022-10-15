@@ -1,0 +1,12 @@
+{
+  "dependencies": [
+    "sqlite3",
+    {
+      "name": "qtbase",
+	  "default-features": false,
+      "features": ["gui", "widgets"]
+    },
+    "fmt"
+  ]
+} 
+ 

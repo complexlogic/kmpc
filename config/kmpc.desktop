@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.5
+Type=Application
+Name=Kodi M3U Playlist Converter
+GenericName=Playlist Converter
+Comment=A desktop application that converts Music M3U playlists for Kodi
+TryExec=kmpc
+Exec=kmpc
+Icon=kmpc
+Categories=Audio;Utility;
